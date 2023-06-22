@@ -19,7 +19,7 @@ urlpatterns = [
     path('recipes/<str:slug>/', views.getRecipe, name="recipe"),
     path('openapi', get_schema_view(
         title="RE_DJ_RF",
-        description="Домашняя работа SkillFactory_F4",
+        description="Домашняя работа SkillFactory F4.6",
         version="1.0.0"
     ), name='openapi-schema'),
     path("swagger/", TemplateView.as_view(
