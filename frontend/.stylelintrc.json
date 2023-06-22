@@ -1,0 +1,16 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "declaration-colon-newline-after": "always-multi-line",
+    "property-no-unknown": [ true, {
+      "ignoreProperties": ["content-visibility"]
+    }]
+  },
+  "ignoreFiles": [
+    "build/**",
+    "coverage/**",
+    "dist/**",
+    "**/*.js",
+    "**/*.jsx"
+  ]
+}
